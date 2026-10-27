@@ -33,10 +33,21 @@ Hech narsa o'rnatish shart emas. `index.html` faylini brauzerda oching yoki GitH
 2. **Source** qatorida "Deploy from a branch", branch sifatida `main` va `/ (root)` ni tanlang.
 3. Bir-ikki daqiqadan keyin o'yin `https://inomjon92.github.io/Blockland/` manzilida ochiladi.
 
+## Android ilovasi (APK)
+
+Har safar `main` branchga o'zgarish yuklanganda GitHub o'yinni avtomatik ravishda Android ilovasiga (APK) yig'adi.
+
+1. Repo sahifasida **Actions** bo'limiga o'ting va eng so'nggi yashil belgili **Android APK** jarayonini oching.
+2. Sahifa pastidagi **Artifacts** qismidan **blokland-apk** ni yuklab oling. Bu ZIP fayl, ichida `app-debug.apk` bor.
+3. Telefonda ZIP'ni oching va `app-debug.apk` ni o'rnating. Telefon "noma'lum manbalardan o'rnatish"ga ruxsat so'rasa, ruxsat bering.
+
+Bu sinov (debug) versiyasi. Google Play'ga joylash uchun keyinchalik imzolangan reliz versiyasi kerak bo'ladi.
+
 ## Texnologiyalar
 
-- [three.js](https://threejs.org/) r149 (WebGL), CDN orqali yuklanadi
-- Toza JavaScript, bitta HTML fayl, build bosqichi yo'q
+- [three.js](https://threejs.org/) r149 (WebGL), repoga qo'shilgan, internetsiz ham ishlaydi
+- Toza JavaScript, bitta HTML fayl
+- [Capacitor](https://capacitorjs.com/) — o'yinni Android ilovasiga o'rash uchun
 
 ## Keyingi qadamlar
 

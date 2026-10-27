@@ -1,0 +1,8 @@
+{
+  "appId": "uz.inomjon92.blokland",
+  "appName": "Blokland",
+  "webDir": "www",
+  "android": {
+    "backgroundColor": "#0b1026"
+  }
+}
