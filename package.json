@@ -1,0 +1,14 @@
+{
+  "name": "blokland",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Blokland voksel o'yini",
+  "scripts": {
+    "web": "node scripts/copy-web.js"
+  },
+  "devDependencies": {
+    "@capacitor/android": "6.1.2",
+    "@capacitor/cli": "6.1.2",
+    "@capacitor/core": "6.1.2"
+  }
+}
